@@ -5,7 +5,7 @@ int cnt_word = 0;
 int cnt_line = 0;
 %}
 %%
-[a-zA-Z0-9]+ {cnt_word++; cnt_char += strlen(yytext);}
+[a-zA-Z0-9]+ {cnt_word++; cnt_char += yyleng;}
 \n {cnt_line++; cnt_char++;}
 . {cnt_char++;}
 %%

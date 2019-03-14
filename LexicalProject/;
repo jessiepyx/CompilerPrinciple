@@ -1,0 +1,16 @@
+%{
+#include <stdio.h>
+#include <ctype.h>
+%}
+%%
+{^"//".*$} {printf("%s\n", yytext);}
+{(and|array|begin|case|const|div|do|downto|else|end|for|function|goto|if|in|mod|not|of|or|packed|procedure|program|record|repeat|set|then|to|type|until|var|while|with)} {printf("%s", toupper(*yytext));}
+%%
+void main()
+{
+	yylex();
+}
+int yywrap()
+{
+	return 1;
+}
