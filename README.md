@@ -19,10 +19,7 @@ Lexical analysis with **Lex/Flex**.
 Syntax analysis with **Yacc/Bison**.
 - Implement an integer and floating point calculator according to the following grammar:
 
-	exp -\> exp + exp | exp - exp
-	        | exp * exp | exp / exp
-	        | exp ^ exp | -exp
-	        | (exp) | NUM
+		exp -> exp + exp | exp - exp | exp * exp | exp / exp | exp ^ exp | -exp | (exp) | NUM
 
 - Exponentiation (^) has higher priority than minus sign (-)
 - Exponentiation is right-associative, while other operations are left-associative
