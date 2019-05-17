@@ -1,0 +1,6 @@
+This is a test input file.
+Do something in this file...
+// comments for testing
+begin calculation
+3 + 4 mod 5 = 2 /* another comment */
+end function
