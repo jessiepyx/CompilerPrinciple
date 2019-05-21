@@ -1,4 +1,4 @@
 
-	make
-	keywords < testinput.txt > testoutput.txt
-	make clean
+	$ make
+	$ keywords < testinput.txt > testoutput.txt
+	$ make clean

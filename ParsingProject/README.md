@@ -1,4 +1,4 @@
 
-	make
-	calculator < testinput.txt > testoutput.txt
-	make clean
+	$ make
+	$ calculator < testinput.txt > testoutput.txt
+	$ make clean

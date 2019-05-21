@@ -1,4 +1,4 @@
 
-	make
-	count < testinput.txt > testoutput.txt
-	make clean
+	$ make
+	$ count < testinput.txt > testoutput.txt
+	$ make clean
